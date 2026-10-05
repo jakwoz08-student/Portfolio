@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursy Komputerowe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="baner.png" alt="kursy komputerowe">
+    </header>
+    <nav>
+        <a href="index.html">Strona Głowna</a>
+        <a href="raty.html">Koszt rat</a>
+        <a href=" https://moje-szkolenia.pl/">Nasz partner</a>
+    </nav>
+    <main>
+        <h3>Oblicz miesięczną ratę</h3>
+
+        <!--PAMIETAJ NAWET JAK JEST KOD JS to jak masz dawac jakies inputy to dawaj w formie tylko ten inout w sesnie przycisk to dawaj
+        go TYPE BUTTON ZEBY NIE ODSIWERZAL STORNY A W PHP JAKO SUBMIT PAMIETAJ O TYM -->
+        <!-- PAMIETAJ ETYKIETY TO SA LABEL ZAWSZE JAK JEST NAZW INPUTA TO ROB PRZEZ LABEL PAMIETAJ O TYM -->
+        <form action="#" method="post">
+            <input type="checkbox" name="kurs_1" id="check1" class="kontrolki">
+            <label for="check1">Kurs React.js</label></br>
+
+            <!-- pamietaj id jest koniecze do label pameitaj o tym -->
+
+            <input type="checkbox" name="kurs_2" id="check2" class="kontrolki">
+            <label for="check2">Kurs Javascript</label></br>
+
+            <label for="numer1">Liczba rat: </label>
+            <input type="number" name="raty" id="numer1" class="kontrolki"></br>
+
+            <select name="miasto" class="kontrolki">
+                <option value="Warszawa">Warszawa</option>
+                <option value="Katowice">Katowice</option>
+                <option value="Gdańsk">Gdańsk</option>
+            </select></br>
+
+            <input type="button" value="Oblicz" class="kontrolki" name="oblicz"></br>
+            <!-- pamietaj daje typy button zeby nie odsiwerzalo bo to ma byc js ale daje to w form zawsze pamietaj o tym -->
+        </form>
+        
+        <p class="wynik">
+            <!-- daje klase do lepszego zadzania -->
+            <!-- efet skryptu ktory jest w zewnetrzym pliku pamietaj o tym -->
+        </p>
+    </main>
+    <footer>
+        <p>Autor strony: Jakub Woźniak</p>
+    </footer>
+    <script src="skrypt.js"></script>
+    <!-- pamietaj jak src piszemy pamietaj o tym -->
+</body>
+</html>

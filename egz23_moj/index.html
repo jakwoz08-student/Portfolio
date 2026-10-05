@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatuaże</title>
+    <link rel="stylesheet" href="styl.css">
+    <!-- pamietaj o tym ze w grafice przykladowa ozdobna czcionka jest freestyle script -->
+</head>
+<body>
+    <!-- pamietaj jak robic to systec z 2 headermi kolo siebie
+     TYLKO UTAJ BYLA TAKSYTUACJA ZE ONE NIE MIALY ROWNEJ WYSOKSOCI WIEC FLEXA I HEADERA Z 2 SECTIOAMI NIE UZYJESZ TUTAJ
+     MUISZ TUTAJ JE DAC JAKO DZIECI INNYCH TAGOW NP ASIDE CZY ARTICEL I WTEDY TO BEDZIE TYLKO PAMIETAO O ODPOWIEDNIJ STYLIZACJI 
+     PAMIETAJ O TYM JAK SIE TO ROBI-->
+
+     <main>
+        <aside>
+            
+                <header>
+                    <!-- ROBIE INCZEJ TUTJA DAJE HEADER WNETRZ BLOKU I TO JEST HEADER TO TEGO I WTEDY MOGE EDAC 2 HEADERY NA STOENIE 
+                    I TKA MUSZE BO TO NIE ZGODNIE J WYSOKOSCI -->
+                        <img src="logo.png" alt="salon">
+                </header>
+                <h3>Dodaj wzór</h3>
+                <form action="#" method="post">
+                    <label for="nazwa_pliku">Wzór:</label></br>
+                    <input type="file" accept="png" id="nazwa_pliku"></br>
+                    <!-- PAMIETAJ JAK DZIAL ACCEPT -->
+                    <label for="kolor">Kolor: </label></br>
+                    <select id="kolor">
+                        <option value="Czarny">Czarny</option>
+                        <option value="Czerwony">Czerwony</option>
+                        <option value="Zielony">Zielony</option>
+                        <option value="Niebieski">Niebieski</option>
+                    </select></br>
+                    <label for="cena">Cena: </label></br>
+                    <input type="number"  id="cena"></br>
+                    <input type="button" value="Dodaj Wzór">
+                    <!-- button zeby nie przeladowywoalo -->
+                </form>
+        </aside>
+        <article>
+            <header>
+                    <h2>Studio Tatuażu</h2>
+            </header>
+            <section>
+                <h2>Galeria</h2>
+                <img src="smok.png" alt="smok.png" class="miniatury" >
+                <img src="koliber.png" alt="koliber.png" class="miniatury">
+            </section>
+        </article>
+            
+            
+    </main>
+     <footer>
+        <p>Autor strony: J.W</p>
+     </footer>
+     <script src="skrypt.js"></script>
+</body>
+</html>

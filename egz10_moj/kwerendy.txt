@@ -1,0 +1,9 @@
+SELECT kolor,material FROM produkt WHERE wysokosc_buta>10;
+
+SELECT buty.nazwa,buty.cena,kategorie.nazwa_kat FROM buty JOIN kategorie ON buty.id_kat=kategorie.id_kat;//pamiętaj jak to działa
+
+CREATE USER 'Marek'@'localhost' IDENTIFIED BY 'M@reK';//PAMIETAJ JAK TYCH UZYTOWNKOW NA LOCLAHOST ROBIC Z HASLEM PAMIETAJ O TYM 
+
+GRANT SELECT, UPDATE ON obuwie.produkt TO 'Marek'@'localhost';//PAMIETAJ JAK NADAWC UPRAWNINIA UZYTOWKOWI MAREK Z LOCALHOSTA 
+//I ON MOZE WYBIERAC CZYLI selct i aktalizowac czyli update w bazie buwie na tabeli produkt jeśli wsztkie tabel to dajemy*  a jak nie to robim
+wymien a zjaj bazy i tabel po przecinku takie skaldniki pamiętaj o tym 

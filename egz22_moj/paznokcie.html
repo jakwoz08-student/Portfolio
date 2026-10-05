@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylizacja paznokci</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <aside>
+        <img src="manicure.jpg" alt="Stylizacja paznokci">
+    </aside>
+    <article>
+        <main>
+            <header>
+                <h1>Twoje wymarzone paznokcie</h1>
+            </header>
+            <nav>
+                <!-- bedzie na js ale lepiej dawac fomra na button zeby byl button i claass aby szbice strowac -->
+                <form action="#" method="post">
+                    <input type="button" value="Kolor" class="przycisk1">
+                    <input type="button" value="Kształt" class="przycisk2">
+                    <input type="button" value="Wzór" class="przycisk3">
+                </form>
+            </nav>
+            <section class="sekcja1">
+                <h2>Kolor</h2>
+                <img src="kolory.png" alt="Kolory paznokci">
+                <form action="#" method="post">
+                    <input type="color" value="#FF0000">
+                </form>
+            </section>
+            <section class="sekcja2">
+                 <h2>Kształt</h2>
+                <img src="ksztalt.png" alt="Kształty paznokci">   
+                <form action="#" method="post">
+                    <select name="ksztalt">
+                        <option value="migdał">migdał</option>
+                        <option value="zaokrąglony">zaokrąglony</option>
+                        <option value="kwadratowy">kwadratowy</option>
+                        <option value="balerina">balerina</option>
+                        <option value="zaokrąglony kwadrat">zaokrąglony kwadrat</option>
+                    </select>
+                </form>
+            </section>
+            <section class="sekcja3">
+                <h2>Wzór</h2>
+                <!-- ekfet skrypt 1 -->
+                 <form action="#" method="post">
+                    <input type="number" name="wzor" min="1" max="10" step="1" class="punkt_odniesenia">
+                    <!-- PAMIETAJ TEN STEP DAJE TO ZE WYMAGA ZEBY DAWAC CALKOWIET BO O 1 MOZE PRZESKAIWAC PAMIEETAJ O TYM -->
+                 </form>
+            </section>
+        </main>
+        <footer>
+                <p>Autor strony: <em>Jakub Woźniak</em></p>
+        </footer>
+    </article>
+    <script src="skrypt.js"></script>
+</body>
+</html>

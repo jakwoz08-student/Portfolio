@@ -1,0 +1,60 @@
+
+*{
+    font-family:  'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+aside{
+    width: 20%;
+}
+aside img{
+    width: 100%;
+}
+article{
+    width: 80%;
+}
+nav{
+    text-align: left;
+    margin-left: 10%;
+}
+section{
+    background-color: salmon;
+    margin-left: 10%;
+    padding: 10px;
+    height: 250px;
+}
+.sekcja1{
+    display: block;
+}
+.sekcja2,.sekcja3{
+    display: none;
+    /* PAMIETAJ O TYM DISPLAY NONE */
+}
+input[type="button"]{
+    width: 26%;
+    color: white;
+    border: none;
+    font-size: 200%;
+}
+.przycisk1{
+    background-color: salmon;
+}
+.przycisk2,.przycisk3{
+    background-color: crimson;
+}
+.wzory{
+    width: 70px;
+    margin: 5px;
+    border-radius: 100%;
+}
+/* DO JS ZEBY BYLO LATWIEJ */
+.widoczny{
+    display: block;
+}
+.ukryty{
+    display: none;
+    /* PAMIETAJ O TYM DISPLAY NONE */
+}

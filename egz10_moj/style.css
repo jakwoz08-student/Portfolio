@@ -1,0 +1,45 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    background-color:  #EAEAEA;
+}
+nav,footer{
+    background-color: #625B5B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+ul{
+    margin-left: 40px;
+    list-style-type: circle;
+    /* pamietaj jak ten styl punkote lisy ustawic i musi to byc na liscie a nie li */
+}
+nav a{
+    font-weight: bolder;
+    /*pamietaj jak pogrubienie trzeba robic  */
+    background-color: #EAEAEA;
+    color: #625B5B;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 20px;
+}
+nav a:hover{
+    background-color: #625B5B;
+    color: #EAEAEA;
+    border: #EAEAEA solid 1px;
+}
+table{
+    border: #625B5B 1px dashed;
+    /* pamietaj dashed to jest kresokwny styl borderu */
+    width: 60%;
+    margin-left: 40px;
+    text-align: center;
+}
+.kontrolki{
+    margin: 5px;
+
+}
